@@ -8,9 +8,6 @@ function Addtask({list}) {
       if(!title || !desc){
           alert('Title and description cannot be empty')
       }
-      list(title,desc)
-      settitle('');
-      setdesc('');
   }
   return (
     <div className="container ">
