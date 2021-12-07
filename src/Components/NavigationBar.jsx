@@ -1,12 +1,12 @@
 import React from "react";
 
-function NavigationBar() {
+function NavigationBar(props) {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Todo Save
+            {props.title}
           </a>
           <button
             className="navbar-toggler"
