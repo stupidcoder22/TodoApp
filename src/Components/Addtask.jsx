@@ -9,6 +9,8 @@ function Addtask({list}) {
           alert('Title and description cannot be empty')
       }
       list(title,desc)
+      settitle('');
+      setdesc('');
   }
   return (
     <div className="container ">
@@ -24,7 +26,6 @@ function Addtask({list}) {
             onChange={(e)=>settitle(e.target.value)}
             className="form-control"
             id="title"
-            aria-describedby="emailHelp"
           />
         </div>
         <div className="mb-3">

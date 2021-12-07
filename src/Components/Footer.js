@@ -4,7 +4,7 @@ function Footer() {
 
     let footerstyle = {
         position:'relative',
-        top:'5vh',
+        top:'70vh',
         width:'100%',
         // backgroundColor=6
     }
