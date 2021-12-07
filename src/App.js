@@ -15,6 +15,7 @@ function App() {
   }
 
   function additeminlist(title, desc) {
+    console.log('object')
     let id;
     if (state.length === 0) {
       id = 0;
@@ -29,6 +30,7 @@ function App() {
     };
     setstate([...state, latest]);
   }
+
 
   function ondelete(todo) {
     var newdata = state.filter((val) => {

@@ -6,7 +6,6 @@ function Todo({data,itemdelete}) {
       <h1 className='text-center my-3'>ToDo List</h1>
       {
           data.map((value)=>{
-            console.log(value)
               return( 
               <div key={value.id}>
               <TodoItem todo = {value} ondelete={itemdelete}>
